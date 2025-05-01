@@ -29,6 +29,7 @@ If changes are made to the Autotools files, a full rebuild should be run:
 AUTHORS
 ===============
 * Port: Mentore Siesto
+* Fixes: ZXjogv <zx@jogv.es>
 
 LINKS
 ===============
