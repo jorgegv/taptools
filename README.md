@@ -9,7 +9,22 @@ LICENSE
 
 COMPILE TOOLS
 ===============
-* 
+
+For rebuilding:
+
+```
+  ./configure
+  make
+```
+
+If changes are made to the Autotools files, a full rebuild should be run:
+
+```
+  sudo dnf install autoconf automake libtool
+  autoreconf -fi
+  ./configure
+  make
+```
 
 AUTHORS
 ===============
